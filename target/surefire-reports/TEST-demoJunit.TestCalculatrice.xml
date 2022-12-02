@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="demoJunit.TestCalculatrice" time="0.021" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit\target\test-classes;C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit\target\classes;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\amine\AppData\Local\Temp\surefire9557146148868518234\surefirebooter7553799547675294412.jar C:\Users\amine\AppData\Local\Temp\surefire9557146148868518234 2022-12-02T15-02-38_595-jvmRun1 surefire15348236492594819428tmp surefire_05339258974539497880tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit\target\test-classes;C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit\target\classes;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amine"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amine\AppData\Local\Temp\surefire9557146148868518234\surefirebooter7553799547675294412.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="amine"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\amine\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amine\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\amine\Desktop\OCP_11_Octobre_2022\4-Code_Source\demoJunit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\OpenSSH\bin;C:\Program Files\Symfony;C:\Program Files\OpenSSL-Win64\bin;C:\Users\amine\Desktop\Devops_Outils\3-Maven\maven\bin;C:\Program Files\PuTTY\;C:\Users\amine\Desktop\maven\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;D:\xamp\php;C:\Program Files\Git\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\maven\bin;C:\Users\amine\AppData\Local\Microsoft\WindowsApps;C:\Users\amine\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amine\.dotnet\tools;C:\Users\amine\AppData\Roaming\npm;D:\xamp7_2\php;C:\Users\amine\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="demoJunit.TestCalculatrice.testSoustract" classname="demoJunit.TestCalculatrice" time="0.002">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at demoJunit.TestCalculatrice.testSoustract(TestCalculatrice.java:21)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 14 more
+</failure>
+  </testcase>
+  <testcase name="demoJunit.TestCalculatrice.testSomme" classname="demoJunit.TestCalculatrice" time="0">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at demoJunit.TestCalculatrice.testSomme(TestCalculatrice.java:11)
+</failure>
+  </testcase>
+  <testcase name="demoJunit.TestCalculatrice.testProduit" classname="demoJunit.TestCalculatrice" time="0">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at demoJunit.TestCalculatrice.testProduit(TestCalculatrice.java:16)
+</failure>
+  </testcase>
+</testsuite>
